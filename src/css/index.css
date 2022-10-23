@@ -20,10 +20,14 @@
     width: 100%;
     height: auto;
   }
+ 
+ 
+}
+
+@media(max-width:768px) {
   form{
     margin-top: 50px;
   }
- 
 }
 
 @media (min-width: 780px) {
@@ -39,6 +43,7 @@
     grid-template-columns: 0.8fr 1fr;
   }
 
+  
   #app header {
     grid-area: A;
   }
